@@ -45,7 +45,7 @@ const Hero = () => {
                 </div>
               </div>
             <div className="w-full  lg:w-1/2 tg:p-8">
-            <div className="flex justify-center lg:w-1/2  ">
+            <div className="flex justify-center hover:cursor-pointer shadow-inner lg:w-1/2  ">
               <motion.img
               initial={{ x: 100, opacity: 0}}
               animate={{ x: 0, opacity: 1}}
