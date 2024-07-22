@@ -1,4 +1,4 @@
-import aboutImg from"../assets/about.jpg";
+import aboutImg from"../assets/ChathuProfile2.jpeg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
