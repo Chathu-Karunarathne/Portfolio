@@ -17,12 +17,12 @@ import Navbar from "./components/Navbar";
       </div>
       <div className="container mx-auto px-8">
        <Navbar/>
-       <Hero/>
-       <About/>
-       <Technologies/>
-       <Experience/>
-       <Projects/>
-       <Contact/>
+       { <Hero/> }
+       { <About/> }
+       {<Technologies/> }
+       {/* <Experience/> */}
+       { <Projects/> }
+       { <Contact/> }
       </div>
     </div>
     

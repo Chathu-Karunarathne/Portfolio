@@ -44,14 +44,15 @@ const Hero = () => {
                   </motion.p>
                 </div>
               </div>
-            <div className="w-full  lg:w-1/2 tg:p-8">
-            <div className="flex justify-center hover:cursor-pointer shadow-inner lg:w-1/2  ">
+            <div className="w-full  lg:w-1/2 tg:p-8  flex lg:justify-center items-center ">
+            <div className="flex justify-center  hover:cursor-pointer overflow-hidden shadow-inner lg:w-1/2 ">
               <motion.img
               initial={{ x: 100, opacity: 0}}
               animate={{ x: 0, opacity: 1}}
               transition={{ duration: 1, delay: 1.2}}
               src={profilePic} 
-              alt="Chathuni Karunarathne" />
+              alt="Chathuni Karunarathne"
+              className="w-full rounded-md  object-cover brightness-75  hover:brightness-100" />
 
             </div>
             </div>
